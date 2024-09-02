@@ -12,15 +12,11 @@ export const Home = () => {
 			<p>
 				<img src={rigoImageUrl} />
 			</p>
-			<div className="alert alert-info">
-				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
-			</div>
-			<p>
-				This boilerplate comes with lots of documentation:{" "}
-				<a href="https://start.4geeksacademy.com/starters/react-flask">
-					Read documentation
-				</a>
-			</p>
+			
+			<h2 className="py-5">
+				Authentication System with Python, Flask and React.js
+				
+			</h2>
 		</div>
 	);
 };
